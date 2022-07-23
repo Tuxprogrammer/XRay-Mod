@@ -1,7 +1,7 @@
-package com.fgtXray.client;
+package com.fgtXray.fgtXray.client;
 
-import com.fgtXray.FgtXRay;
-import com.fgtXray.client.gui.GuiSettings;
+import com.fgtXray.fgtXray.FgtXRay;
+import com.fgtXray.fgtXray.client.gui.GuiSettings;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent.KeyInputEvent;

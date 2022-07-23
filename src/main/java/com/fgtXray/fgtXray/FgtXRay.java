@@ -1,9 +1,9 @@
-package com.fgtXray;
+package com.fgtXray.fgtXray;
 
-import com.fgtXray.config.ConfigHandler;
-import com.fgtXray.config.DefaultConfig;
-import com.fgtXray.proxy.ServerProxy;
-import com.fgtXray.reference.OreInfo;
+import com.fgtXray.fgtXray.config.ConfigHandler;
+import com.fgtXray.fgtXray.config.DefaultConfig;
+import com.fgtXray.fgtXray.proxy.ServerProxy;
+import com.fgtXray.fgtXray.reference.OreInfo;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;

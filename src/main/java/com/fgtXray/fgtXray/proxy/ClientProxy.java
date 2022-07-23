@@ -1,10 +1,10 @@
 // Forge proxy for the client side.
-package com.fgtXray.proxy;
+package com.fgtXray.fgtXray.proxy;
 
-import com.fgtXray.FgtXRay;
-import com.fgtXray.client.ClientTick;
-import com.fgtXray.client.KeyBindingHandler;
-import com.fgtXray.client.RenderTick;
+import com.fgtXray.fgtXray.FgtXRay;
+import com.fgtXray.fgtXray.client.ClientTick;
+import com.fgtXray.fgtXray.client.KeyBindingHandler;
+import com.fgtXray.fgtXray.client.RenderTick;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.FMLCommonHandler;
 import net.minecraft.client.settings.KeyBinding;

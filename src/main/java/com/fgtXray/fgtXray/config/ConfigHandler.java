@@ -1,7 +1,7 @@
-package com.fgtXray.config;
+package com.fgtXray.fgtXray.config;
 
-import com.fgtXray.FgtXRay;
-import com.fgtXray.reference.OreInfo;
+import com.fgtXray.fgtXray.FgtXRay;
+import com.fgtXray.fgtXray.reference.OreInfo;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ChatComponentText;

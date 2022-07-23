@@ -1,8 +1,8 @@
 // Use by GuiSettings. There is a hashmap of the "OreName" and this
 
-package com.fgtXray;
+package com.fgtXray.fgtXray;
 
-import com.fgtXray.reference.OreInfo;
+import com.fgtXray.fgtXray.reference.OreInfo;
 import java.util.ArrayList;
 
 public class OreButtons {

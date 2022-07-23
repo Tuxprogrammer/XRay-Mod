@@ -1,6 +1,6 @@
-package com.fgtXray.client.gui;
+package com.fgtXray.fgtXray.client.gui;
 
-import com.fgtXray.client.OresSearch;
+import com.fgtXray.fgtXray.client.OresSearch;
 import javax.swing.*;
 import net.minecraft.client.gui.*;
 import net.minecraft.util.ResourceLocation;

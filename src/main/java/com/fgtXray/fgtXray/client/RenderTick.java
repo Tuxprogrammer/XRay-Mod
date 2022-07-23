@@ -1,12 +1,12 @@
-package com.fgtXray.client;
+package com.fgtXray.fgtXray.client;
 
 /* Props goto CJB for the render functions and maths.
  * http://twitter.com/CJBMods
  * I pretty much copied this from his decompiled MoreInfo mod and bitbucket repo.
  */
 
-import com.fgtXray.FgtXRay;
-import com.fgtXray.reference.BlockInfo;
+import com.fgtXray.fgtXray.FgtXRay;
+import com.fgtXray.fgtXray.reference.BlockInfo;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import java.util.ArrayList;
 import java.util.List;

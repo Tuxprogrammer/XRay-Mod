@@ -1,8 +1,8 @@
-package com.fgtXray.client;
+package com.fgtXray.fgtXray.client;
 
-import com.fgtXray.FgtXRay;
-import com.fgtXray.config.ConfigHandler;
-import com.fgtXray.reference.OreInfo;
+import com.fgtXray.fgtXray.FgtXRay;
+import com.fgtXray.fgtXray.config.ConfigHandler;
+import com.fgtXray.fgtXray.reference.OreInfo;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

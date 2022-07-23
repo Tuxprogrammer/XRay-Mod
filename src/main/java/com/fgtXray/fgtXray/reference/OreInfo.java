@@ -1,5 +1,5 @@
 // Structure for damn near everything.
-package com.fgtXray.reference;
+package com.fgtXray.fgtXray.reference;
 
 public class OreInfo {
     public String oreName; // Clean name of this ore

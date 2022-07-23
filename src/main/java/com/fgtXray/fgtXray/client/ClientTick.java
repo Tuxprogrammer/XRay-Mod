@@ -1,8 +1,8 @@
-package com.fgtXray.client;
+package com.fgtXray.fgtXray.client;
 
-import com.fgtXray.FgtXRay;
-import com.fgtXray.reference.BlockInfo;
-import com.fgtXray.reference.OreInfo;
+import com.fgtXray.fgtXray.FgtXRay;
+import com.fgtXray.fgtXray.reference.BlockInfo;
+import com.fgtXray.fgtXray.reference.OreInfo;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
 import java.util.ArrayList;

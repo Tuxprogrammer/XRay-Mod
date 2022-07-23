@@ -1,10 +1,10 @@
-package com.fgtXray.client.gui;
+package com.fgtXray.fgtXray.client.gui;
 
-import com.fgtXray.FgtXRay;
-import com.fgtXray.OreButtons;
-import com.fgtXray.client.OresSearch;
-import com.fgtXray.config.ConfigHandler;
-import com.fgtXray.reference.OreInfo;
+import com.fgtXray.fgtXray.FgtXRay;
+import com.fgtXray.fgtXray.OreButtons;
+import com.fgtXray.fgtXray.client.OresSearch;
+import com.fgtXray.fgtXray.config.ConfigHandler;
+import com.fgtXray.fgtXray.reference.OreInfo;
 import java.util.*;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
