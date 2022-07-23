@@ -1,5 +1,30 @@
-.gradle/
-.idea/
-gradle/
-gradlew
-gradlew.bat
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+.vscode
+
+CREDITS-fml.txt
+*.txt
+
+classes/
+.DS_Store
+/logs/
