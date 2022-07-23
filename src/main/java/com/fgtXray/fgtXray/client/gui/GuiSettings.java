@@ -34,8 +34,8 @@ public class GuiSettings extends GuiScreen {
             return;
         }
 
-        this.buttons = new HashMap<
-                String, OreButtons>(); // String id for the button. Same as the button text. (Diamond / Iron ect.)
+        this.buttons = new HashMap<String, OreButtons>(); // String id for the button. Same as the button text. (Diamond
+                                                          // / Iron ect.)
         this.buttonList.clear();
         pageIndex.clear(); // took me 2 hours to figure out i had forgotten this...
 
@@ -52,8 +52,7 @@ public class GuiSettings extends GuiScreen {
         for (OreInfo ore : OresSearch.searchList) {
             if (buttons.get(ore.oreName) != null) {
                 // Button already created for this ore.
-                buttons.get(ore.oreName)
-                        .ores
+                buttons.get(ore.oreName).ores
                         .add(ore); // Add this new OreInfo to the internal ArrayList for this button
             } else {
                 // Create the new button for this ore.
@@ -116,8 +115,8 @@ public class GuiSettings extends GuiScreen {
                 82,
                 20,
                 "Distance: "
-                        + FgtXRay.distStrings[
-                                FgtXRay.distIndex])); // Static button for printing the ore dictionary / searchList.
+                        + FgtXRay.distStrings[FgtXRay.distIndex])); // Static button for printing the ore dictionary /
+                                                                    // searchList.
         this.buttonList.add(new GuiButton(
                 99,
                 this.width - 102,
@@ -187,7 +186,7 @@ public class GuiSettings extends GuiScreen {
 
             case 97: // New Ore button
                 mc.thePlayer.closeScreen();
-                mc.displayGuiScreen(new GuiNewOre());
+                mc.displayGuiScreen(new GuiAdd());
                 break;
 
             case -150:
@@ -274,7 +273,8 @@ public class GuiSettings extends GuiScreen {
             for (int i = 0; i < this.buttonList.size(); i++) {
                 GuiButton button = (GuiButton) this.buttonList.get(i);
                 if (button.func_146115_a()) { // func_146115_a() returns true if the button is being hovered
-                    // mc.theWorld.playSoundAtEntity( mc.thePlayer, "minecraft.sound.random.click", 1.0F, 1.0F ); TODO:
+                    // mc.theWorld.playSoundAtEntity( mc.thePlayer, "minecraft.sound.random.click",
+                    // 1.0F, 1.0F ); TODO:
                     // click sound...
                     if (button.id == 98) {
                         if (FgtXRay.distIndex > 0) {
